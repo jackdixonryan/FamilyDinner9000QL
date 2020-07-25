@@ -1,0 +1,25 @@
+{
+  "name": "fd-9000-ql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^14.0.26",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "helmet": "^3.23.3",
+    "mongodb": "^3.5.9",
+    "morgan": "^1.10.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "dev": "nodemon --exec 'ts-node' index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
