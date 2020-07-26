@@ -6,8 +6,9 @@ Currently, we only have spells.
 # How to run
 * npm install --save
 * create a file .env.dev containing
+   (Get the mongo URL from jack/carolyn)
 ```
-MONGO_URL=mongodb+srv://jackryan:2MGOLfcz49k5RUBn@cluster0.x1uxc.gcp.mongodb.net/5erpc?retryWrites=true&w=majority
+MONGO_URL=<url>
 PORT=9000
 ```
 * npm run dev
