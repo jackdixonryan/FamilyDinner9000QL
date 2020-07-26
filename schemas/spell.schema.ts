@@ -6,6 +6,8 @@ const spellSchemas = buildSchema(`
   type Query {
     spell(slug: String!): Spell
     spells(slug: String): [Spell]
+    spellsByClass(class: String!): [Spell]
+    spellsByClassAndLevel(class: String!, level: Int!): [Spell]
   }
 
   type Spell {

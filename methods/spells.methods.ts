@@ -7,8 +7,8 @@ async function buildMethods(queries) {
   try {
     var spell = async function(args) {
       const slug = args.slug;
-      const spell = await queries.getWhere("spells", "slug", slug);
-      return spell;
+      const spells = await queries.getWhere("spells", "slug", slug);
+      return spells[0];
     }
 
     var spells = async function(args) {
@@ -16,9 +16,22 @@ async function buildMethods(queries) {
       return all;
     }
 
+    var spellsByClass = async function(args) {
+      const argClass = args.class;
+      const all = await queries.getWhere("spells", "classes", argClass);
+      return all;
+    }
+
+    var spellsByClassAndLevel = async function(args) {
+      const all = await queries.getWhereClassAndLevel("spells", args.class, args.level);
+      return all;
+    }
+
     return {
       spell,
-      spells
+      spells,
+      spellsByClass,
+      spellsByClassAndLevel
     }
     
   } catch (error) {

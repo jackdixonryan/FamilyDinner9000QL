@@ -26,7 +26,37 @@ async function buildQueries(database) {
           .find(query)
           .toArray();
 
-        return request[0];
+        return request;
+        
+      } catch (error) {
+        return error;
+      }
+    },
+    async getWhereClassAndLevel(collection, value, int) {
+      try {
+        const request = await database 
+          .collection(collection)
+          .find({
+            classes: value,
+            level: { $lte: int }
+          })
+          .sort({ level : 1 })
+          .toArray();
+
+        return request;
+        
+      } catch (error) {
+        return error;
+      }
+    },
+    async getQuery(collection, query) {
+      try {
+        const request = await database 
+          .collection(collection)
+          .find(query)
+          .toArray();
+
+        return request;
         
       } catch (error) {
         return error;
