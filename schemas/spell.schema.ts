@@ -15,7 +15,7 @@ const spellSchemas = buildSchema(`
     desc: String,
     higher_level: String,
     page: Int,
-    range: Int,
+    range: String,
     components: [String],
     material: String,
     ritual: Boolean,

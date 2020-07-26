@@ -4,16 +4,15 @@ import { MongoClient } from "mongodb";
 import buildQueries from "./queries";
 
 async function connect() {
-  console.log("STEP 3: Connecting to DB...")
+  console.log("Connecting to DB...")
   try {
-    const client = await MongoClient.connect(
-      "mongodb+srv://jackryan:2MGOLfcz49k5RUBn@cluster0.x1uxc.gcp.mongodb.net/5erpc?retryWrites=true&w=majority",
+    const client = await MongoClient.connect(process.env.MONGO_URL,
       {
         useUnifiedTopology: true,
         useNewUrlParser: true,
       }
     );
-    console.log("Connection to database @ " + process.env.MONGO_URL + " successful!");
+    console.log("Connection to database successful!");
     const database = client.db("5e");
     // collection inits? 
     await database.collection("spells")

@@ -11,6 +11,7 @@ import buildMethods from "../methods/spells.methods"
 
 async function serve(db) {
   try {
+    const PORT = process.env.PORT;
     const app = express();
     app.use(cors());
     app.use(morgan("dev"));
@@ -19,15 +20,15 @@ async function serve(db) {
     console.log("Building D&D Methods...");
     const methods = await buildMethods(db);
 
-
+    console.log("Initializing server...")
     app.use("/graphql", graphqlHTTP({
       schema: spellSchemas,
       rootValue: methods,
       graphiql: true,
     }));
 
-    app.listen(4000);
-    console.log("Running on PORT 4000");
+    app.listen(PORT);
+    console.log("fd-9000 running on PORT", PORT);
   } catch(error) {
     console.log("Massive error, guvnah! ", error);
   }
