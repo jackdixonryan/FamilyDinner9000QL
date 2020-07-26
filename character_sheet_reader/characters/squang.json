@@ -1,0 +1,822 @@
+{
+    "actions": [
+        {
+            "actions": [
+                {
+                    "activation": "1 Action",
+                    "limitedUse": null,
+                    "name": "Unarmed Strike",
+                    "snippet": "You can punch, kick, head-butt, or use a similar forceful blow and deal bludgeoning damage equal to 1 + STR modifier",
+                    "type": 1
+                }
+            ],
+            "label": "Actions",
+            "spells": [],
+            "type": 1
+        },
+        {
+            "actions": [
+                {
+                    "activation": "1 Bonus Action",
+                    "limitedUse": null,
+                    "name": "Cunning Action",
+                    "snippet": "You can take a bonus action on each of your turns to take the Dash, Disengage, or Hide action.",
+                    "type": 3
+                }
+            ],
+            "label": "Bonus Actions",
+            "spells": [],
+            "type": 3
+        },
+        {
+            "actions": [],
+            "label": "Reactions",
+            "spells": [],
+            "type": 4
+        },
+        {
+            "actions": [
+                {
+                    "activation": "Special",
+                    "limitedUse": null,
+                    "name": "Sneak Attack",
+                    "snippet": "Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don\u2019t need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn\u2019t incapacitated, and you don\u2019t have disadvantage on the attack roll.",
+                    "type": 3
+                }
+            ],
+            "label": "Special",
+            "spells": [],
+            "type": 8
+        }
+    ],
+    "armorClass": 13,
+    "attacks": [
+        {
+            "damageString": "1d4+2 Piercing",
+            "name": "Dagger",
+            "notes": "Simple, Finesse, Light, Thrown, Range (20/60)",
+            "toHit": 4
+        },
+        {
+            "damageString": "1d8+2 Piercing",
+            "name": "Rapier",
+            "notes": "Martial, Finesse",
+            "toHit": 4
+        },
+        {
+            "damageString": "1d6+2 Piercing",
+            "name": "Shortbow",
+            "notes": "Simple, Ammunition, Range, Two-Handed, Range (80/320)",
+            "toHit": 4
+        },
+        {
+            "damageString": "0 Bludgeoning",
+            "name": "Unarmed Strike",
+            "notes": "",
+            "toHit": 1
+        }
+    ],
+    "attunedItems": [],
+    "background": "Criminal / Spy",
+    "basicActions": [
+        "Attack",
+        "Cast a Spell",
+        "Dash",
+        "Disengage",
+        "Dodge",
+        "Help",
+        "Hide",
+        "Ready",
+        "Search",
+        "Use an Object",
+        "Opportunity Attack",
+        "Grapple",
+        "Shove",
+        "Improvise",
+        "Two-Weapon Fighting",
+        "Interact with an Object"
+    ],
+    "characteristics": {
+        "age": 33,
+        "alignment": "Chaotic Neutral",
+        "eyes": "Yellow",
+        "faith": "Agnostic",
+        "gender": "male",
+        "hair": "Brown",
+        "height": "5'11",
+        "size": "Medium",
+        "skin": "Purple",
+        "weight": 135
+    },
+    "classFeatures": [
+        {
+            "className": "Rogue",
+            "features": [
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Hit Points",
+                    "options": [],
+                    "page": "PHB 95",
+                    "snippet": "",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Proficiencies",
+                    "options": [],
+                    "page": "PHB 95",
+                    "snippet": "",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Expertise",
+                    "options": [],
+                    "page": "PHB 96",
+                    "snippet": "Your proficiency bonus is doubled for any ability check you make for two chosen proficiencies. [6th] Choose two additional proficiencies.",
+                    "spells": []
+                },
+                {
+                    "actions": [
+                        {
+                            "activation": "Special",
+                            "limitedUse": null,
+                            "name": "Sneak Attack",
+                            "snippet": "Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don\u2019t need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn\u2019t incapacitated, and you don\u2019t have disadvantage on the attack roll.",
+                            "type": 3
+                        }
+                    ],
+                    "choices": [],
+                    "levelScale": {
+                        "description": "1d6",
+                        "dice": {
+                            "diceCount": 1,
+                            "diceMultiplier": null,
+                            "diceString": "1d6",
+                            "diceValue": 6,
+                            "fixedValue": null
+                        },
+                        "fixedValue": null,
+                        "id": 16,
+                        "level": 1
+                    },
+                    "name": "Sneak Attack",
+                    "options": [],
+                    "page": "PHB 96",
+                    "snippet": "Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don\u2019t need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn\u2019t incapacitated, and you don\u2019t have disadvantage on the attack roll.",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Thieves\u2019 Cant",
+                    "options": [],
+                    "page": "PHB 96",
+                    "snippet": "You have learned thieves\u2019 cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
+                    "spells": []
+                },
+                {
+                    "actions": [
+                        {
+                            "activation": "1 Bonus Action",
+                            "limitedUse": null,
+                            "name": "Cunning Action",
+                            "snippet": "You can take a bonus action on each of your turns to take the Dash, Disengage, or Hide action.",
+                            "type": 3
+                        }
+                    ],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Cunning Action",
+                    "options": [],
+                    "page": "PHB 96",
+                    "snippet": "You can take a bonus action on each of your turns to take the Dash, Disengage, or Hide action.",
+                    "spells": []
+                }
+            ],
+            "level": 2
+        }
+    ],
+    "classes": [
+        {
+            "level": 2,
+            "name": "Rogue"
+        }
+    ],
+    "creatures": [],
+    "currencies": {
+        "cp": 200,
+        "ep": 0,
+        "gp": 38,
+        "pp": 0,
+        "sp": 48
+    },
+    "customSkills": [],
+    "defenses": {
+        "immunities": [],
+        "resistances": [
+            {
+                "isCustom": false,
+                "name": "Fire",
+                "source": "Tiefling"
+            }
+        ],
+        "vulnerabilities": []
+    },
+    "encumberedWeight": 120,
+    "feats": [],
+    "hitDice": [
+        {
+            "dice": {
+                "diceCount": 2,
+                "diceMultiplier": null,
+                "diceString": null,
+                "diceValue": 8,
+                "fixedValue": null
+            },
+            "diceString": "2d8"
+        }
+    ],
+    "hitPointMax": 13,
+    "initiative": 2,
+    "items": [
+        {
+            "name": "Leather",
+            "quantity": 1,
+            "weight": 10
+        },
+        {
+            "name": "Dagger",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "Dagger",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "Shortbow",
+            "quantity": 1,
+            "weight": 2
+        },
+        {
+            "name": "Rapier",
+            "quantity": 1,
+            "weight": 2
+        },
+        {
+            "name": "Potion of Healing (Greater)",
+            "quantity": 1,
+            "weight": 0.5
+        },
+        {
+            "name": "Arrows",
+            "quantity": 19,
+            "weight": 0.95
+        },
+        {
+            "name": "Backpack",
+            "quantity": 1,
+            "weight": 5
+        },
+        {
+            "name": "Ball Bearings (bag of 1,000)",
+            "quantity": 1000,
+            "weight": 2
+        },
+        {
+            "name": "Bell",
+            "quantity": 1,
+            "weight": 0
+        },
+        {
+            "name": "Candle",
+            "quantity": 1,
+            "weight": 0
+        },
+        {
+            "name": "Clothes, Common",
+            "quantity": 1,
+            "weight": 3
+        },
+        {
+            "name": "Crowbar",
+            "quantity": 2,
+            "weight": 10
+        },
+        {
+            "name": "Hammer",
+            "quantity": 1,
+            "weight": 3
+        },
+        {
+            "name": "Lantern, Hooded",
+            "quantity": 1,
+            "weight": 2
+        },
+        {
+            "name": "Oil (flask)",
+            "quantity": 2,
+            "weight": 2
+        },
+        {
+            "name": "Piton",
+            "quantity": 10,
+            "weight": 2.5
+        },
+        {
+            "name": "Rations (1 day)",
+            "quantity": 5,
+            "weight": 10
+        },
+        {
+            "name": "Rope, Hempen (50 feet)",
+            "quantity": 1,
+            "weight": 10
+        },
+        {
+            "name": "Tinderbox",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "Waterskin",
+            "quantity": 1,
+            "weight": 5
+        },
+        {
+            "name": "Thieves' Tools",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "String",
+            "quantity": 10,
+            "weight": 0
+        },
+        {
+            "name": "3 Gold Teeth",
+            "quantity": 1,
+            "weight": 0
+        },
+        {
+            "name": "Ogre Neck Fat",
+            "quantity": 1,
+            "weight": 0
+        }
+    ],
+    "languages": [
+        "Common",
+        "Infernal",
+        "Thieves\u2019 Cant"
+    ],
+    "level": 2,
+    "name": "SquangDangle",
+    "notes": {
+        "allies": "",
+        "backstory": "Squangdangle was once the kingpin of the local crime syndicate. However, he was dethroned by his best friend and right hand man- Remmy Shitticus. He'll now do everything in his power to reclaim his old position.",
+        "enemies": "Remy Shitticus\nClerics - They think I come from a line of sin\nOverly Lawful Characters",
+        "organizations": "",
+        "otherHoldings": null,
+        "otherNotes": null,
+        "personalPossessions": "A coin with strange writing on it. "
+    },
+    "passiveInsight": 11,
+    "passiveInvestigation": 14,
+    "passivePerception": 13,
+    "proficiencies": [
+        "Acrobatics",
+        "Crossbow, Hand",
+        "Deception",
+        "Dexterity Saving Throws",
+        "Dice Set",
+        "Disguise Kit",
+        "Intelligence Saving Throws",
+        "Investigation",
+        "Light Armor",
+        "Longsword",
+        "Perception",
+        "Rapier",
+        "Shortsword",
+        "Simple Weapons",
+        "Sleight of Hand",
+        "Stealth",
+        "Thieves' Tools"
+    ],
+    "proficiencyBonus": 2,
+    "proficiencyGroups": [
+        {
+            "label": "Armor",
+            "proficiencies": [
+                "Light Armor"
+            ]
+        },
+        {
+            "label": "Weapons",
+            "proficiencies": [
+                "Crossbow, Hand",
+                "Longsword",
+                "Rapier",
+                "Shortsword",
+                "Simple Weapons"
+            ]
+        },
+        {
+            "label": "Tools",
+            "proficiencies": [
+                "Dice Set",
+                "Disguise Kit",
+                "Thieves' Tools"
+            ]
+        },
+        {
+            "label": "Languages",
+            "proficiencies": [
+                "Common",
+                "Infernal",
+                "Thieves\u2019 Cant"
+            ]
+        }
+    ],
+    "pushDragLiftWeight": 240,
+    "race": "Tiefling",
+    "racialTraits": [
+        {
+            "actions": [],
+            "name": "Darkvision",
+            "options": [],
+            "page": "BR 43",
+            "snippet": "You can see in darkness (shades of gray) up to 60 ft.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Hellish Resistance",
+            "options": [],
+            "page": "BR 43",
+            "snippet": "You have resistance to fire damage.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Infernal Legacy",
+            "options": [],
+            "page": "BR 43",
+            "snippet": "You know the thaumaturgy cantrip. [3rd] You can cast hellish rebuke (2nd) once per long rest. [5th] You can cast darkness once per long rest. CHA is your spellcasting ability.",
+            "spells": [
+                {
+                    "level": 0,
+                    "limitedUse": null,
+                    "name": "Thaumaturgy"
+                }
+            ]
+        }
+    ],
+    "savingThrowSummaries": [],
+    "senses": [
+        {
+            "distance": 0,
+            "label": "Blindsight"
+        },
+        {
+            "distance": 60,
+            "label": "Darkvision"
+        },
+        {
+            "distance": 0,
+            "label": "Tremorsense"
+        },
+        {
+            "distance": 0,
+            "label": "Truesight"
+        },
+        {
+            "distance": 0,
+            "label": "Unknown"
+        }
+    ],
+    "skills": [
+        {
+            "modifier": -1,
+            "name": "Athletics",
+            "proficiencyLevel": 1,
+            "statKey": "STR"
+        },
+        {
+            "modifier": 4,
+            "name": "Acrobatics",
+            "proficiencyLevel": 3,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 4,
+            "name": "Sleight of Hand",
+            "proficiencyLevel": 3,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 6,
+            "name": "Stealth",
+            "proficiencyLevel": 4,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 2,
+            "name": "Arcana",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 2,
+            "name": "History",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 4,
+            "name": "Investigation",
+            "proficiencyLevel": 3,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 2,
+            "name": "Nature",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 2,
+            "name": "Religion",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 1,
+            "name": "Animal Handling",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 1,
+            "name": "Insight",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 1,
+            "name": "Medicine",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 3,
+            "name": "Perception",
+            "proficiencyLevel": 3,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 1,
+            "name": "Survival",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 5,
+            "name": "Deception",
+            "proficiencyLevel": 3,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 3,
+            "name": "Intimidation",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 3,
+            "name": "Performance",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 3,
+            "name": "Persuasion",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        }
+    ],
+    "speeds": [
+        {
+            "distance": 30,
+            "name": "Walking",
+            "source": "",
+            "type": 1
+        },
+        {
+            "distance": 0,
+            "name": "Flying",
+            "source": "",
+            "type": 4
+        },
+        {
+            "distance": 0,
+            "name": "Climbing",
+            "source": "",
+            "type": 3
+        },
+        {
+            "distance": 0,
+            "name": "Burrowing",
+            "source": "",
+            "type": 2
+        },
+        {
+            "distance": 0,
+            "name": "Swimming",
+            "source": "",
+            "type": 5
+        }
+    ],
+    "spellSlots": [
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        }
+    ],
+    "spellcastingInfo": {
+        "classNames": [],
+        "spellAttackBonuses": [],
+        "spellSaveDifficulties": [],
+        "spellcastingAbilities": []
+    },
+    "spells": [
+        [
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": false,
+                "castingTime": "1A",
+                "components": "V",
+                "duration": "1 minute",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Thaumaturgy",
+                "notes": "D: 1m, V",
+                "page": "PHB 282",
+                "range": "30 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Infernal Legacy",
+                "toHit": null
+            }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "stats": [
+        {
+            "display": {
+                "primary": "-1",
+                "secondary": "8"
+            },
+            "key": "str",
+            "modifier": -1,
+            "name": "Strength",
+            "savingThrow": -1,
+            "savingThrowProficiencyLevel": 1,
+            "score": 8
+        },
+        {
+            "display": {
+                "primary": "+2",
+                "secondary": "15"
+            },
+            "key": "dex",
+            "modifier": 2,
+            "name": "Dexterity",
+            "savingThrow": 4,
+            "savingThrowProficiencyLevel": 3,
+            "score": 15
+        },
+        {
+            "display": {
+                "primary": "+0",
+                "secondary": "10"
+            },
+            "key": "con",
+            "modifier": 0,
+            "name": "Constitution",
+            "savingThrow": 0,
+            "savingThrowProficiencyLevel": 1,
+            "score": 10
+        },
+        {
+            "display": {
+                "primary": "+2",
+                "secondary": "14"
+            },
+            "key": "int",
+            "modifier": 2,
+            "name": "Intelligence",
+            "savingThrow": 4,
+            "savingThrowProficiencyLevel": 3,
+            "score": 14
+        },
+        {
+            "display": {
+                "primary": "+1",
+                "secondary": "12"
+            },
+            "key": "wis",
+            "modifier": 1,
+            "name": "Wisdom",
+            "savingThrow": 1,
+            "savingThrowProficiencyLevel": 1,
+            "score": 12
+        },
+        {
+            "display": {
+                "primary": "+3",
+                "secondary": "16"
+            },
+            "key": "cha",
+            "modifier": 3,
+            "name": "Charisma",
+            "savingThrow": 3,
+            "savingThrowProficiencyLevel": 1,
+            "score": 16
+        }
+    ],
+    "totalWeight": 79.67,
+    "traits": {
+        "appearance": null,
+        "bonds": "Something important was taken from me, and I aim to steal it back.",
+        "flaws": "If there\u2019s a plan, I\u2019ll forget it. If I don\u2019t forget it, I\u2019ll ignore it.\nI'm incredibly racist against Gnomes. ",
+        "ideals": "People. I\u2019m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)\nFreedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)",
+        "personalityTraits": "I don\u2019t pay attention to the risks in a situation. Never tell me the odds.\nThe best way to get me to do something is to tell me I can\u2019t do it."
+    },
+    "xp": "(Milestone)"
+}

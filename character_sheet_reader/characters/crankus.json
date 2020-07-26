@@ -1,0 +1,1268 @@
+{
+    "actions": [
+        {
+            "actions": [
+                {
+                    "activation": "1 Action",
+                    "limitedUse": null,
+                    "name": "Unarmed Strike",
+                    "snippet": "You can punch, kick, head-butt, or use a similar forceful blow and deal bludgeoning damage equal to 1 + STR modifier",
+                    "type": 1
+                },
+                {
+                    "activation": "1 Action",
+                    "limitedUse": {
+                        "maxUses": 2,
+                        "resetType": 1
+                    },
+                    "name": "Wild Shape",
+                    "snippet": "As an action, you can magically assume the shape of a beast that you have seen before twice per short rest. [2nd] Max CR 1/4 (no flying or swimming speed) [4th] Max CR 1/2 (no flying speed) [8th] Max CR 1\r\n\r\nYou can stay in beast shape for 1 hours before reverting back to your normal form (or as a bonus action earlier or if you fall unconscious, drop to 0 hit points, or die).",
+                    "type": 3
+                }
+            ],
+            "label": "Actions",
+            "spells": [],
+            "type": 1
+        },
+        {
+            "actions": [],
+            "label": "Bonus Actions",
+            "spells": [],
+            "type": 3
+        },
+        {
+            "actions": [],
+            "label": "Reactions",
+            "spells": [],
+            "type": 4
+        },
+        {
+            "actions": [],
+            "label": "Special",
+            "spells": [],
+            "type": 8
+        }
+    ],
+    "armorClass": 16,
+    "attacks": [
+        {
+            "damageString": "1d6+3 Slashing",
+            "name": "Scimitar",
+            "notes": "Martial, Finesse, Light",
+            "toHit": 5
+        },
+        {
+            "damageString": "0 Bludgeoning",
+            "name": "Unarmed Strike",
+            "notes": "",
+            "toHit": 1
+        }
+    ],
+    "attunedItems": [],
+    "background": "Custom Background",
+    "basicActions": [
+        "Attack",
+        "Cast a Spell",
+        "Dash",
+        "Disengage",
+        "Dodge",
+        "Help",
+        "Hide",
+        "Ready",
+        "Search",
+        "Use an Object",
+        "Opportunity Attack",
+        "Grapple",
+        "Shove",
+        "Improvise",
+        "Two-Weapon Fighting",
+        "Interact with an Object"
+    ],
+    "characteristics": {
+        "age": 80,
+        "alignment": "Neutral",
+        "eyes": "Green",
+        "faith": "",
+        "gender": "F",
+        "hair": "Black",
+        "height": "4ft 10in",
+        "size": "Medium",
+        "skin": "Black",
+        "weight": 60
+    },
+    "classFeatures": [
+        {
+            "className": "Druid",
+            "features": [
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Hit Points",
+                    "options": [],
+                    "page": "PHB 65",
+                    "snippet": "",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Proficiencies",
+                    "options": [],
+                    "page": "PHB 65",
+                    "snippet": "",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Druidic",
+                    "options": [],
+                    "page": "PHB 66",
+                    "snippet": "You know Druidic, the secret language of druids.",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Spellcasting",
+                    "options": [],
+                    "page": "PHB 66",
+                    "snippet": "You can cast prepared druid spells using WIS as your spellcasting modifier (Spell DC 12, Spell Attack +4) and prepared druid spells as rituals if they have the ritual tag. You can use a druidic focus as a spellcasting focus.",
+                    "spells": []
+                },
+                {
+                    "actions": [
+                        {
+                            "activation": "1 Action",
+                            "limitedUse": {
+                                "maxUses": 2,
+                                "resetType": 1
+                            },
+                            "name": "Wild Shape",
+                            "snippet": "As an action, you can magically assume the shape of a beast that you have seen before twice per short rest. [2nd] Max CR 1/4 (no flying or swimming speed) [4th] Max CR 1/2 (no flying speed) [8th] Max CR 1\r\n\r\nYou can stay in beast shape for 1 hours before reverting back to your normal form (or as a bonus action earlier or if you fall unconscious, drop to 0 hit points, or die).",
+                            "type": 3
+                        }
+                    ],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Wild Shape",
+                    "options": [],
+                    "page": "PHB 66",
+                    "snippet": "As an action, you can magically assume the shape of a beast that you have seen before twice per short rest.\r\n\r\nYou can stay in beast shape for 1 hours before reverting back to your normal form (or as a bonus action earlier or if you fall unconscious, drop to 0 hit points, or die).",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [
+                        {
+                            "type": 7,
+                            "value": "Circle of the Land (Forest)"
+                        }
+                    ],
+                    "levelScale": null,
+                    "name": "Druid Circle",
+                    "options": [],
+                    "page": "PHB 67",
+                    "snippet": null,
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Bonus Cantrip",
+                    "options": [],
+                    "page": "PHB 68",
+                    "snippet": "You learn one additional druid cantrip of your choice.",
+                    "spells": [
+                        {
+                            "level": 0,
+                            "limitedUse": null,
+                            "name": "Mending"
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "activation": "",
+                            "limitedUse": {
+                                "maxUses": 1,
+                                "resetType": 2
+                            },
+                            "name": "Natural Recovery",
+                            "snippet": "Once per long rest during a short rest, you choose expended spell slots to recover. The spell slots can have a combined level of up to 1, and none of the slots can be 6th level or higher.",
+                            "type": 3
+                        }
+                    ],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Natural Recovery",
+                    "options": [],
+                    "page": "PHB 68",
+                    "snippet": "Once per long rest during a short rest, you choose expended spell slots to recover. The spell slots can have a combined level of up to 1, and none of the slots can be 6th level or higher.",
+                    "spells": []
+                }
+            ],
+            "level": 2
+        }
+    ],
+    "classes": [
+        {
+            "level": 2,
+            "name": "Druid"
+        }
+    ],
+    "creatures": [],
+    "currencies": {
+        "cp": 200,
+        "ep": 0,
+        "gp": 13,
+        "pp": 0,
+        "sp": 48
+    },
+    "customSkills": [],
+    "defenses": {
+        "immunities": [],
+        "resistances": [],
+        "vulnerabilities": []
+    },
+    "encumberedWeight": 120,
+    "feats": [],
+    "hitDice": [
+        {
+            "dice": {
+                "diceCount": 2,
+                "diceMultiplier": null,
+                "diceString": null,
+                "diceValue": 8,
+                "fixedValue": null
+            },
+            "diceString": "2d8"
+        }
+    ],
+    "hitPointMax": 15,
+    "initiative": 3,
+    "items": [
+        {
+            "name": "Shield",
+            "quantity": 1,
+            "weight": 6
+        },
+        {
+            "name": "Leather",
+            "quantity": 1,
+            "weight": 10
+        },
+        {
+            "name": "Shortbow",
+            "quantity": 1,
+            "weight": 2
+        },
+        {
+            "name": "Scimitar",
+            "quantity": 1,
+            "weight": 3
+        },
+        {
+            "name": "Backpack",
+            "quantity": 1,
+            "weight": 5
+        },
+        {
+            "name": "Bedroll",
+            "quantity": 1,
+            "weight": 7
+        },
+        {
+            "name": "Mess Kit",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "Potion of Healing",
+            "quantity": 1,
+            "weight": 0.5
+        },
+        {
+            "name": "Rations (1 day)",
+            "quantity": 10,
+            "weight": 20
+        },
+        {
+            "name": "Rope, Hempen (50 feet)",
+            "quantity": 1,
+            "weight": 10
+        },
+        {
+            "name": "Tinderbox",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "Torch",
+            "quantity": 10,
+            "weight": 10
+        },
+        {
+            "name": "Waterskin",
+            "quantity": 1,
+            "weight": 5
+        },
+        {
+            "name": "Druidic Focus",
+            "quantity": 1,
+            "weight": 0
+        }
+    ],
+    "languages": [
+        "Common",
+        "Elvish",
+        "Druidic",
+        "Celestial"
+    ],
+    "level": 2,
+    "name": "Crankus",
+    "notes": {
+        "allies": null,
+        "backstory": null,
+        "enemies": null,
+        "organizations": null,
+        "otherHoldings": null,
+        "otherNotes": null,
+        "personalPossessions": "jade frog statue"
+    },
+    "passiveInsight": 14,
+    "passiveInvestigation": 12,
+    "passivePerception": 14,
+    "proficiencies": [
+        "Calligrapher's Supplies",
+        "Club",
+        "Dagger",
+        "Dart",
+        "Herbalism Kit",
+        "Insight",
+        "Intelligence Saving Throws",
+        "Javelin",
+        "Light Armor",
+        "Longbow",
+        "Longsword",
+        "Mace",
+        "Medicine",
+        "Medium Armor",
+        "Perception",
+        "Quarterstaff",
+        "Religion",
+        "Scimitar",
+        "Shields",
+        "Shortbow",
+        "Shortsword",
+        "Sickle",
+        "Sling",
+        "Spear",
+        "Survival",
+        "Wisdom Saving Throws"
+    ],
+    "proficiencyBonus": 2,
+    "proficiencyGroups": [
+        {
+            "label": "Armor",
+            "proficiencies": [
+                "Light Armor",
+                "Medium Armor",
+                "Shields"
+            ]
+        },
+        {
+            "label": "Weapons",
+            "proficiencies": [
+                "Club",
+                "Dagger",
+                "Dart",
+                "Javelin",
+                "Longbow",
+                "Longsword",
+                "Mace",
+                "Quarterstaff",
+                "Scimitar",
+                "Shortbow",
+                "Shortsword",
+                "Sickle",
+                "Sling",
+                "Spear"
+            ]
+        },
+        {
+            "label": "Tools",
+            "proficiencies": [
+                "Calligrapher's Supplies",
+                "Herbalism Kit"
+            ]
+        },
+        {
+            "label": "Languages",
+            "proficiencies": [
+                "Celestial",
+                "Common",
+                "Druidic",
+                "Elvish"
+            ]
+        }
+    ],
+    "pushDragLiftWeight": 240,
+    "race": "Wood Elf",
+    "racialTraits": [
+        {
+            "actions": [],
+            "name": "Darkvision",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You can see in darkness (shades of gray) up to 60 ft.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Keen Senses",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You have proficiency in the Perception skill.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Fey Ancestry",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You have advantage on saves against being charmed, and magic can\u2019t put you to sleep.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Trance",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You don't need to sleep, but meditate semiconsciously for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Elf Weapon Training",
+            "options": [],
+            "page": "BR 24",
+            "snippet": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Fleet of Foot",
+            "options": [],
+            "page": "BR 24",
+            "snippet": "Your base walking speed increases to 35 feet.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Mask of the Wild",
+            "options": [],
+            "page": "BR 24",
+            "snippet": "You can attempt to hide even when you are only lightly obscured.",
+            "spells": []
+        }
+    ],
+    "savingThrowSummaries": [
+        "Advantage against being charmed, and magic can\u2019t put you to sleep"
+    ],
+    "senses": [
+        {
+            "distance": 0,
+            "label": "Blindsight"
+        },
+        {
+            "distance": 60,
+            "label": "Darkvision"
+        },
+        {
+            "distance": 0,
+            "label": "Tremorsense"
+        },
+        {
+            "distance": 0,
+            "label": "Truesight"
+        },
+        {
+            "distance": 0,
+            "label": "Unknown"
+        }
+    ],
+    "skills": [
+        {
+            "modifier": -1,
+            "name": "Athletics",
+            "proficiencyLevel": 1,
+            "statKey": "STR"
+        },
+        {
+            "modifier": 3,
+            "name": "Acrobatics",
+            "proficiencyLevel": 1,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 3,
+            "name": "Sleight of Hand",
+            "proficiencyLevel": 1,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 3,
+            "name": "Stealth",
+            "proficiencyLevel": 1,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 2,
+            "name": "Arcana",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 2,
+            "name": "History",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 2,
+            "name": "Investigation",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 2,
+            "name": "Nature",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 4,
+            "name": "Religion",
+            "proficiencyLevel": 3,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 2,
+            "name": "Animal Handling",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 4,
+            "name": "Insight",
+            "proficiencyLevel": 3,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 4,
+            "name": "Medicine",
+            "proficiencyLevel": 3,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 4,
+            "name": "Perception",
+            "proficiencyLevel": 3,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 4,
+            "name": "Survival",
+            "proficiencyLevel": 3,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 0,
+            "name": "Deception",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 0,
+            "name": "Intimidation",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 0,
+            "name": "Performance",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 0,
+            "name": "Persuasion",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        }
+    ],
+    "speeds": [
+        {
+            "distance": 35,
+            "name": "Walking",
+            "source": "",
+            "type": 1
+        },
+        {
+            "distance": 0,
+            "name": "Flying",
+            "source": "",
+            "type": 4
+        },
+        {
+            "distance": 0,
+            "name": "Climbing",
+            "source": "",
+            "type": 3
+        },
+        {
+            "distance": 0,
+            "name": "Burrowing",
+            "source": "",
+            "type": 2
+        },
+        {
+            "distance": 0,
+            "name": "Swimming",
+            "source": "",
+            "type": 5
+        }
+    ],
+    "spellSlots": [
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [
+                3
+            ],
+            "pactMagic": 0,
+            "spell": 3
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        }
+    ],
+    "spellcastingInfo": {
+        "classNames": [
+            "Druid"
+        ],
+        "spellAttackBonuses": [
+            4
+        ],
+        "spellSaveDifficulties": [
+            12
+        ],
+        "spellcastingAbilities": [
+            "WIS"
+        ]
+    },
+    "spells": [
+        [
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": false,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Druidcraft",
+                "notes": "V/S",
+                "page": "PHB 236",
+                "range": "30 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": false,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Concentration, up to 1 minute",
+                "isConcentration": true,
+                "isRitual": false,
+                "name": "Guidance",
+                "notes": "D: 1m, V/S",
+                "page": "PHB 248",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": false,
+                "castingTime": "1m",
+                "components": "V,S,M",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Mending",
+                "notes": "V/S/M",
+                "page": "PHB 259",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Bonus Cantrip",
+                "toHit": null
+            }
+        ],
+        [
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "10 minutes",
+                "isConcentration": false,
+                "isRitual": true,
+                "name": "Speak with Animals",
+                "notes": "D: 10m, V/S",
+                "page": "PHB 277",
+                "range": "Self",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "STR",
+                "attackSaveValue": 12,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Concentration, up to 1 minute",
+                "isConcentration": true,
+                "isRitual": false,
+                "name": "Entangle",
+                "notes": "D: 1m, 20 ft. Square, V/S",
+                "page": "PHB 238",
+                "range": "90 ft./20 ft. Square",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": true,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "DEX",
+                "attackSaveValue": 12,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Earth Tremor",
+                "notes": "V/S",
+                "page": "EE 155",
+                "range": "10 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": true,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1BA",
+                "components": "V",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Healing Word",
+                "notes": "V",
+                "page": "PHB 250",
+                "range": "60 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "WIS",
+                "attackSaveValue": 12,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S,M",
+                "duration": "24 hours",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Animal Friendship",
+                "notes": "D: 24h, V/S/M",
+                "page": "PHB 212",
+                "range": "30 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": true,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "WIS",
+                "attackSaveValue": 12,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "1 hour",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Charm Person",
+                "notes": "D: 1h, V/S",
+                "page": "PHB 221",
+                "range": "30 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": true,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S,M",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Create or Destroy Water",
+                "notes": "30 ft. Cube, V/S/M",
+                "page": "PHB 229",
+                "range": "30 ft./30 ft. Cube",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Cure Wounds",
+                "notes": "V/S",
+                "page": "PHB 230",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A + 10m",
+                "components": "V,S",
+                "duration": "Concentration, up to 10 minutes",
+                "isConcentration": true,
+                "isRitual": true,
+                "name": "Detect Magic",
+                "notes": "D: 10m, 30 ft. Sphere, V/S",
+                "page": "PHB 231",
+                "range": "Self/30 ft. Sphere",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A + 10m",
+                "components": "V,S,M",
+                "duration": "Concentration, up to 10 minutes",
+                "isConcentration": true,
+                "isRitual": true,
+                "name": "Detect Poison and Disease",
+                "notes": "D: 10m, 30 ft. Sphere, V/S/M",
+                "page": "PHB 231",
+                "range": "Self/30 ft. Sphere",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "DEX",
+                "attackSaveValue": 12,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V",
+                "duration": "Concentration, up to 1 minute",
+                "isConcentration": true,
+                "isRitual": false,
+                "name": "Faerie Fire",
+                "notes": "D: 1m, 20 ft. Cube, V",
+                "page": "PHB 239",
+                "range": "60 ft./20 ft. Cube",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": true,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1R",
+                "components": "S",
+                "duration": "1 round",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Absorb Elements",
+                "notes": "D: 1Rnd, S",
+                "page": "EE 150",
+                "range": "Self",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S,M",
+                "duration": "Concentration, up to 10 minutes",
+                "isConcentration": true,
+                "isRitual": false,
+                "name": "Beast Bond",
+                "notes": "D: 10m, V/S/M",
+                "page": "EE 150",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Concentration, up to 1 hour",
+                "isConcentration": true,
+                "isRitual": false,
+                "name": "Fog Cloud",
+                "notes": "D: 1h, 20 ft. Sphere, V/S",
+                "page": "PHB 243",
+                "range": "120 ft./20 ft. Sphere",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S,M",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Goodberry",
+                "notes": "V/S/M",
+                "page": "PHB 246",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "DEX",
+                "attackSaveValue": 12,
+                "attackType": "Ranged",
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "S,M",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Ice Knife",
+                "notes": "5 ft. Sphere, S/M",
+                "page": "EE 157",
+                "range": "60 ft./5 ft. Sphere",
+                "requiresAttackRoll": true,
+                "requiresSavingThrow": true,
+                "source": "Druid",
+                "toHit": 4
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S,M",
+                "duration": "1 minute",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Jump",
+                "notes": "D: 1m, V/S/M",
+                "page": "PHB 254",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S,M",
+                "duration": "1 hour",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Longstrider",
+                "notes": "D: 1h, V/S/M",
+                "page": "PHB 256",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A + 10m",
+                "components": "V,S",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": true,
+                "name": "Purify Food and Drink",
+                "notes": "5 ft. Sphere, V/S",
+                "page": "PHB 270",
+                "range": "10 ft./5 ft. Sphere",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Druid",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "CON",
+                "attackSaveValue": 12,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Thunderwave",
+                "notes": "15 ft. Cube, V/S",
+                "page": "PHB 282",
+                "range": "Self/15 ft. Cube",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": true,
+                "source": "Druid",
+                "toHit": null
+            }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "stats": [
+        {
+            "display": {
+                "primary": "-1",
+                "secondary": "8"
+            },
+            "key": "str",
+            "modifier": -1,
+            "name": "Strength",
+            "savingThrow": -1,
+            "savingThrowProficiencyLevel": 1,
+            "score": 8
+        },
+        {
+            "display": {
+                "primary": "+3",
+                "secondary": "16"
+            },
+            "key": "dex",
+            "modifier": 3,
+            "name": "Dexterity",
+            "savingThrow": 3,
+            "savingThrowProficiencyLevel": 1,
+            "score": 16
+        },
+        {
+            "display": {
+                "primary": "+1",
+                "secondary": "12"
+            },
+            "key": "con",
+            "modifier": 1,
+            "name": "Constitution",
+            "savingThrow": 1,
+            "savingThrowProficiencyLevel": 1,
+            "score": 12
+        },
+        {
+            "display": {
+                "primary": "+2",
+                "secondary": "15"
+            },
+            "key": "int",
+            "modifier": 2,
+            "name": "Intelligence",
+            "savingThrow": 4,
+            "savingThrowProficiencyLevel": 3,
+            "score": 15
+        },
+        {
+            "display": {
+                "primary": "+2",
+                "secondary": "14"
+            },
+            "key": "wis",
+            "modifier": 2,
+            "name": "Wisdom",
+            "savingThrow": 4,
+            "savingThrowProficiencyLevel": 3,
+            "score": 14
+        },
+        {
+            "display": {
+                "primary": "+0",
+                "secondary": "10"
+            },
+            "key": "cha",
+            "modifier": 0,
+            "name": "Charisma",
+            "savingThrow": 0,
+            "savingThrowProficiencyLevel": 1,
+            "score": 10
+        }
+    ],
+    "totalWeight": 85.72,
+    "traits": {
+        "appearance": "",
+        "bonds": "I work to preserve a library, university, scriptorium, or monastery.\n",
+        "flaws": "Most people scream and run when they see a demon. I stop and take notes on its anatomy.\nI speak without really thinking through my words, invariably insulting others.",
+        "ideals": "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)\nKnowledge. The path to power and self-improvement is through knowledge. (Neutral)",
+        "personalityTraits": "I\u2019ve read every book in the world\u2019s greatest libraries\u2014or I like to boast that I have.\nI \u2026 speak \u2026 slowly \u2026 when talking \u2026 to idiots, \u2026 which \u2026 almost \u2026 everyone \u2026 is \u2026 compared \u2026 to me."
+    },
+    "xp": "(Milestone)"
+}

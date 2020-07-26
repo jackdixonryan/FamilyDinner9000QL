@@ -1,0 +1,1009 @@
+{
+    "actions": [
+        {
+            "actions": [
+                {
+                    "activation": "1 Action",
+                    "limitedUse": null,
+                    "name": "Unarmed Strike",
+                    "snippet": "You can punch, kick, head-butt, or use a similar forceful blow and deal bludgeoning damage equal to 1 + STR modifier",
+                    "type": 1
+                }
+            ],
+            "label": "Actions",
+            "spells": [],
+            "type": 1
+        },
+        {
+            "actions": [],
+            "label": "Bonus Actions",
+            "spells": [],
+            "type": 3
+        },
+        {
+            "actions": [],
+            "label": "Reactions",
+            "spells": [],
+            "type": 4
+        },
+        {
+            "actions": [
+                {
+                    "activation": "Special",
+                    "limitedUse": {
+                        "maxUses": 1,
+                        "resetType": 2
+                    },
+                    "name": "Arcane Recovery",
+                    "snippet": "Once per day when you finish a short rest, you can choose expended spell slots to recover - up to a combined level of 1, and none of the slots can be 6th level or higher.",
+                    "type": 3
+                },
+                {
+                    "activation": "Special",
+                    "limitedUse": null,
+                    "name": "Sculpt Spells",
+                    "snippet": "When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell\u2019s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.",
+                    "type": 3
+                }
+            ],
+            "label": "Special",
+            "spells": [],
+            "type": 8
+        }
+    ],
+    "armorClass": 13,
+    "attacks": [
+        {
+            "damageString": "1d4+3 Piercing",
+            "name": "Dagger",
+            "notes": "Simple, Finesse, Light, Thrown, Range (20/60)",
+            "toHit": 5
+        },
+        {
+            "damageString": "1d10 Fire",
+            "name": "Fire Bolt",
+            "notes": "V/S",
+            "toHit": 5
+        },
+        {
+            "damageString": "0 Bludgeoning",
+            "name": "Unarmed Strike",
+            "notes": "",
+            "toHit": 1
+        }
+    ],
+    "attunedItems": [],
+    "background": "Sage",
+    "basicActions": [
+        "Attack",
+        "Cast a Spell",
+        "Dash",
+        "Disengage",
+        "Dodge",
+        "Help",
+        "Hide",
+        "Ready",
+        "Search",
+        "Use an Object",
+        "Opportunity Attack",
+        "Grapple",
+        "Shove",
+        "Improvise",
+        "Two-Weapon Fighting",
+        "Interact with an Object"
+    ],
+    "characteristics": {
+        "age": 120,
+        "alignment": "Chaotic Neutral",
+        "eyes": "Hazel",
+        "faith": null,
+        "gender": "Male",
+        "hair": "Dark Brown",
+        "height": "5' 6\"",
+        "size": "Medium",
+        "skin": "Chestnut Brown",
+        "weight": 130
+    },
+    "classFeatures": [
+        {
+            "className": "Wizard",
+            "features": [
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Hit Points",
+                    "options": [],
+                    "page": "PHB 113",
+                    "snippet": "",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Proficiencies",
+                    "options": [],
+                    "page": "PHB 113",
+                    "snippet": "",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Spellcasting",
+                    "options": [],
+                    "page": "PHB 114",
+                    "snippet": "You can cast prepared wizard spells using INT as your spellcasting modifier (Spell DC 13, Spell Attack +5) and wizard spells in your spellbook as rituals if they have the ritual tag. You can use an arcane focus as a spellcasting focus.",
+                    "spells": []
+                },
+                {
+                    "actions": [
+                        {
+                            "activation": "Special",
+                            "limitedUse": {
+                                "maxUses": 1,
+                                "resetType": 2
+                            },
+                            "name": "Arcane Recovery",
+                            "snippet": "Once per day when you finish a short rest, you can choose expended spell slots to recover - up to a combined level of 1, and none of the slots can be 6th level or higher.",
+                            "type": 3
+                        }
+                    ],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Arcane Recovery",
+                    "options": [],
+                    "page": "PHB 115",
+                    "snippet": "Once per day when you finish a short rest, you can choose expended spell slots to recover - up to a combined level of 1, and none of the slots can be 6th level or higher.",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [
+                        {
+                            "type": 7,
+                            "value": "School of Evocation"
+                        }
+                    ],
+                    "levelScale": null,
+                    "name": "Arcane Tradition",
+                    "options": [],
+                    "page": "PHB 115",
+                    "snippet": "",
+                    "spells": []
+                },
+                {
+                    "actions": [],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Evocation Savant",
+                    "options": [],
+                    "page": "PHB 117",
+                    "snippet": "The gold and time you must spend to copy an evocation spell into your spellbook is halved.",
+                    "spells": []
+                },
+                {
+                    "actions": [
+                        {
+                            "activation": "Special",
+                            "limitedUse": null,
+                            "name": "Sculpt Spells",
+                            "snippet": "When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell\u2019s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.",
+                            "type": 3
+                        }
+                    ],
+                    "choices": [],
+                    "levelScale": null,
+                    "name": "Sculpt Spells",
+                    "options": [],
+                    "page": "PHB 117",
+                    "snippet": "When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell\u2019s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.",
+                    "spells": []
+                }
+            ],
+            "level": 2
+        }
+    ],
+    "classes": [
+        {
+            "level": 2,
+            "name": "Wizard"
+        }
+    ],
+    "creatures": [],
+    "currencies": {
+        "cp": 0,
+        "ep": 0,
+        "gp": 23,
+        "pp": 0,
+        "sp": 0
+    },
+    "customSkills": [],
+    "defenses": {
+        "immunities": [],
+        "resistances": [],
+        "vulnerabilities": []
+    },
+    "encumberedWeight": 120,
+    "feats": [],
+    "hitDice": [
+        {
+            "dice": {
+                "diceCount": 2,
+                "diceMultiplier": null,
+                "diceString": null,
+                "diceValue": 6,
+                "fixedValue": null
+            },
+            "diceString": "2d6"
+        }
+    ],
+    "hitPointMax": 12,
+    "initiative": 3,
+    "items": [
+        {
+            "name": "Dagger",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "Backpack",
+            "quantity": 1,
+            "weight": 5
+        },
+        {
+            "name": "Bedroll",
+            "quantity": 1,
+            "weight": 7
+        },
+        {
+            "name": "Mess Kit",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "Pot, Iron",
+            "quantity": 1,
+            "weight": 10
+        },
+        {
+            "name": "Clothes, Common",
+            "quantity": 1,
+            "weight": 3
+        },
+        {
+            "name": "Tinderbox",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "Torch",
+            "quantity": 10,
+            "weight": 10
+        },
+        {
+            "name": "Rations (1 day)",
+            "quantity": 10,
+            "weight": 20
+        },
+        {
+            "name": "Waterskin",
+            "quantity": 1,
+            "weight": 5
+        },
+        {
+            "name": "Rope, Hempen (50 feet)",
+            "quantity": 1,
+            "weight": 10
+        },
+        {
+            "name": "Shovel",
+            "quantity": 1,
+            "weight": 5
+        },
+        {
+            "name": "Arcane Focus",
+            "quantity": 1,
+            "weight": 0
+        },
+        {
+            "name": "Spellbook",
+            "quantity": 1,
+            "weight": 3
+        }
+    ],
+    "languages": [
+        "Common",
+        "Elvish",
+        "Infernal",
+        "Sylvan",
+        "Draconic"
+    ],
+    "level": 2,
+    "name": "Maurice",
+    "notes": {
+        "allies": null,
+        "backstory": null,
+        "enemies": null,
+        "organizations": null,
+        "otherHoldings": null,
+        "otherNotes": null,
+        "personalPossessions": null
+    },
+    "passiveInsight": 11,
+    "passiveInvestigation": 15,
+    "passivePerception": 13,
+    "proficiencies": [
+        "Arcana",
+        "Crossbow, Light",
+        "Dagger",
+        "Dart",
+        "History",
+        "Intelligence Saving Throws",
+        "Investigation",
+        "Longbow",
+        "Longsword",
+        "Perception",
+        "Quarterstaff",
+        "Shortbow",
+        "Shortsword",
+        "Sling",
+        "Stealth",
+        "Wisdom Saving Throws"
+    ],
+    "proficiencyBonus": 2,
+    "proficiencyGroups": [
+        {
+            "label": "Armor",
+            "proficiencies": []
+        },
+        {
+            "label": "Weapons",
+            "proficiencies": [
+                "Crossbow, Light",
+                "Dagger",
+                "Dart",
+                "Longbow",
+                "Longsword",
+                "Quarterstaff",
+                "Shortbow",
+                "Shortsword",
+                "Sling"
+            ]
+        },
+        {
+            "label": "Tools",
+            "proficiencies": []
+        },
+        {
+            "label": "Languages",
+            "proficiencies": [
+                "Common",
+                "Draconic",
+                "Elvish",
+                "Infernal",
+                "Sylvan"
+            ]
+        }
+    ],
+    "pushDragLiftWeight": 240,
+    "race": "High Elf",
+    "racialTraits": [
+        {
+            "actions": [],
+            "name": "Darkvision",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You can see in darkness (shades of gray) up to 60 ft.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Keen Senses",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You have proficiency in the Perception skill.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Fey Ancestry",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You have advantage on saves against being charmed, and magic can\u2019t put you to sleep.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Trance",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You don't need to sleep, but meditate semiconsciously for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Elf Weapon Training",
+            "options": [],
+            "page": "BR 23",
+            "snippet": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+            "spells": []
+        },
+        {
+            "actions": [],
+            "name": "Cantrip",
+            "options": [],
+            "page": "BR 24",
+            "snippet": "You know one cantrip of your choice from the wizard spell list. INT is your spellcasting ability for it.",
+            "spells": [
+                {
+                    "level": 0,
+                    "limitedUse": null,
+                    "name": "Prestidigitation"
+                }
+            ]
+        },
+        {
+            "actions": [],
+            "name": "Extra Language",
+            "options": [],
+            "page": "BR 24",
+            "snippet": "You can speak, read, and write one extra language of your choice.",
+            "spells": []
+        }
+    ],
+    "savingThrowSummaries": [
+        "Advantage against being charmed, and magic can\u2019t put you to sleep"
+    ],
+    "senses": [
+        {
+            "distance": 0,
+            "label": "Blindsight"
+        },
+        {
+            "distance": 60,
+            "label": "Darkvision"
+        },
+        {
+            "distance": 0,
+            "label": "Tremorsense"
+        },
+        {
+            "distance": 0,
+            "label": "Truesight"
+        },
+        {
+            "distance": 0,
+            "label": "Unknown"
+        }
+    ],
+    "skills": [
+        {
+            "modifier": -1,
+            "name": "Athletics",
+            "proficiencyLevel": 1,
+            "statKey": "STR"
+        },
+        {
+            "modifier": 3,
+            "name": "Acrobatics",
+            "proficiencyLevel": 1,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 3,
+            "name": "Sleight of Hand",
+            "proficiencyLevel": 1,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 5,
+            "name": "Stealth",
+            "proficiencyLevel": 3,
+            "statKey": "DEX"
+        },
+        {
+            "modifier": 5,
+            "name": "Arcana",
+            "proficiencyLevel": 3,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 5,
+            "name": "History",
+            "proficiencyLevel": 3,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 5,
+            "name": "Investigation",
+            "proficiencyLevel": 3,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 3,
+            "name": "Nature",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 3,
+            "name": "Religion",
+            "proficiencyLevel": 1,
+            "statKey": "INT"
+        },
+        {
+            "modifier": 1,
+            "name": "Animal Handling",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 1,
+            "name": "Insight",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 1,
+            "name": "Medicine",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 3,
+            "name": "Perception",
+            "proficiencyLevel": 3,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 1,
+            "name": "Survival",
+            "proficiencyLevel": 1,
+            "statKey": "WIS"
+        },
+        {
+            "modifier": 0,
+            "name": "Deception",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 0,
+            "name": "Intimidation",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 0,
+            "name": "Performance",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        },
+        {
+            "modifier": 0,
+            "name": "Persuasion",
+            "proficiencyLevel": 1,
+            "statKey": "CHA"
+        }
+    ],
+    "speeds": [
+        {
+            "distance": 30,
+            "name": "Walking",
+            "source": "",
+            "type": 1
+        },
+        {
+            "distance": 0,
+            "name": "Flying",
+            "source": "",
+            "type": 4
+        },
+        {
+            "distance": 0,
+            "name": "Climbing",
+            "source": "",
+            "type": 3
+        },
+        {
+            "distance": 0,
+            "name": "Burrowing",
+            "source": "",
+            "type": 2
+        },
+        {
+            "distance": 0,
+            "name": "Swimming",
+            "source": "",
+            "type": 5
+        }
+    ],
+    "spellSlots": [
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [
+                3
+            ],
+            "pactMagic": 0,
+            "spell": 3
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        },
+        {
+            "combined": [],
+            "pactMagic": 0,
+            "spell": 0
+        }
+    ],
+    "spellcastingInfo": {
+        "classNames": [
+            "Wizard"
+        ],
+        "spellAttackBonuses": [
+            5
+        ],
+        "spellSaveDifficulties": [
+            13
+        ],
+        "spellcastingAbilities": [
+            "INT"
+        ]
+    },
+    "spells": [
+        [
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": "Ranged",
+                "canPrepare": false,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Fire Bolt",
+                "notes": "V/S",
+                "page": "PHB 242",
+                "range": "120 ft.",
+                "requiresAttackRoll": true,
+                "requiresSavingThrow": false,
+                "source": "Wizard",
+                "toHit": 5
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": false,
+                "castingTime": "1m",
+                "components": "V,S,M",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Mending",
+                "notes": "V/S/M",
+                "page": "PHB 259",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Wizard",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "DEX",
+                "attackSaveValue": 13,
+                "attackType": null,
+                "canPrepare": false,
+                "castingTime": "1A",
+                "components": "V,M",
+                "duration": "1 hour",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Light",
+                "notes": "D: 1h, 20 ft. Sphere, V/M",
+                "page": "PHB 255",
+                "range": "Touch/20 ft. Sphere",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": true,
+                "source": "Wizard",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": false,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "1 hour",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Prestidigitation",
+                "notes": "D: 1h, V/S",
+                "page": "PHB 267",
+                "range": "10 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Cantrip",
+                "toHit": null
+            }
+        ],
+        [
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Concentration, up to 10 minutes",
+                "isConcentration": true,
+                "isRitual": true,
+                "name": "Detect Magic",
+                "notes": "D: 10m, 30 ft. Sphere, V/S",
+                "page": "PHB 231",
+                "range": "Self/30 ft. Sphere",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Wizard",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Magic Missile",
+                "notes": "V/S",
+                "page": "PHB 257",
+                "range": "120 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Wizard",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "11m",
+                "components": "V,S,M",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": true,
+                "name": "Identify",
+                "notes": "V/S/M",
+                "page": "PHB 252",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Wizard",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S,M",
+                "duration": "1 hour",
+                "isConcentration": false,
+                "isRitual": true,
+                "name": "Comprehend Languages",
+                "notes": "D: 1h, V/S/M",
+                "page": "PHB 224",
+                "range": "Self",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Wizard",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": null,
+                "attackSaveValue": null,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S,M",
+                "duration": "8 hours",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Mage Armor",
+                "notes": "D: 8h, V/S/M",
+                "page": "PHB 256",
+                "range": "Touch",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": false,
+                "source": "Wizard",
+                "toHit": null
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "DEX",
+                "attackSaveValue": 13,
+                "attackType": "Ranged",
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "S,M",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Ice Knife",
+                "notes": "5 ft. Sphere, S/M",
+                "page": "EE 157",
+                "range": "60 ft./5 ft. Sphere",
+                "requiresAttackRoll": true,
+                "requiresSavingThrow": true,
+                "source": "Wizard",
+                "toHit": 5
+            },
+            {
+                "alwaysPrepared": false,
+                "attackSaveStatKey": "DEX",
+                "attackSaveValue": 13,
+                "attackType": null,
+                "canPrepare": true,
+                "castingTime": "1A",
+                "components": "V,S",
+                "duration": "Instantaneous",
+                "isConcentration": false,
+                "isRitual": false,
+                "name": "Earth Tremor",
+                "notes": "V/S",
+                "page": "EE 155",
+                "range": "10 ft.",
+                "requiresAttackRoll": false,
+                "requiresSavingThrow": true,
+                "source": "Wizard",
+                "toHit": null
+            }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "stats": [
+        {
+            "display": {
+                "primary": "-1",
+                "secondary": "8"
+            },
+            "key": "str",
+            "modifier": -1,
+            "name": "Strength",
+            "savingThrow": -1,
+            "savingThrowProficiencyLevel": 1,
+            "score": 8
+        },
+        {
+            "display": {
+                "primary": "+3",
+                "secondary": "16"
+            },
+            "key": "dex",
+            "modifier": 3,
+            "name": "Dexterity",
+            "savingThrow": 3,
+            "savingThrowProficiencyLevel": 1,
+            "score": 16
+        },
+        {
+            "display": {
+                "primary": "+1",
+                "secondary": "13"
+            },
+            "key": "con",
+            "modifier": 1,
+            "name": "Constitution",
+            "savingThrow": 1,
+            "savingThrowProficiencyLevel": 1,
+            "score": 13
+        },
+        {
+            "display": {
+                "primary": "+3",
+                "secondary": "16"
+            },
+            "key": "int",
+            "modifier": 3,
+            "name": "Intelligence",
+            "savingThrow": 5,
+            "savingThrowProficiencyLevel": 3,
+            "score": 16
+        },
+        {
+            "display": {
+                "primary": "+1",
+                "secondary": "12"
+            },
+            "key": "wis",
+            "modifier": 1,
+            "name": "Wisdom",
+            "savingThrow": 3,
+            "savingThrowProficiencyLevel": 3,
+            "score": 12
+        },
+        {
+            "display": {
+                "primary": "+0",
+                "secondary": "10"
+            },
+            "key": "cha",
+            "modifier": 0,
+            "name": "Charisma",
+            "savingThrow": 0,
+            "savingThrowProficiencyLevel": 1,
+            "score": 10
+        }
+    ],
+    "totalWeight": 81,
+    "traits": {
+        "appearance": null,
+        "bonds": "I\u2019ve been searching my whole life for the answer to a certain question.",
+        "flaws": "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+        "ideals": "Beauty. What is beautiful points us beyond itself toward what is true. (Good)",
+        "personalityTraits": "There\u2019s nothing I like more than a good mystery.\nI\u2019m used to helping out those who aren\u2019t as smart as I am, and I patiently explain anything and everything to others."
+    },
+    "xp": "(Milestone)"
+}
