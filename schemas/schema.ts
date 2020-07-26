@@ -6,7 +6,6 @@ import actionSchema from "./action.schema";
 import monsterSchema from "./monster.schema";
 import skillsSchema from "./skills.schema";
 import spellSchema from "./spell.schema";
-import { mergeSchemas } from "@graphql-tools/merge";
 
 async function loadSchemas() {
   try {
