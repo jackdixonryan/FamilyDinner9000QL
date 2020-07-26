@@ -4,14 +4,14 @@ This is a project to help organize a dnd campaign.  This can be used by players 
 Currently, we only have spells.
 
 # How to run
-1. npm install --save
-1. create a file .env.dev containing
+* npm install --save
+* create a file .env.dev containing
 ```
 MONGO_URL=mongodb+srv://jackryan:2MGOLfcz49k5RUBn@cluster0.x1uxc.gcp.mongodb.net/5erpc?retryWrites=true&w=majority
 PORT=9000
 ```
-1. npm run dev
-1. http://localhost:9000/graphql
+* npm run dev
+* http://localhost:9000/graphql
 Once in the GraphQL interface, you can query our spell library!
 
 # Examples
