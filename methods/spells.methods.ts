@@ -12,26 +12,19 @@ async function buildMethods(queries) {
     }
 
     var spells = async function(args) {
+      if (args.level != null && args.class != null) {
+        return await queries.getWhereClassAndLevel("spells", args.class, args.level);
+      }
+      else if (args.class != null) {
+        return await queries.getWhere("spells", "classes", args.class);
+      }
       const all = await queries.getMany("spells");
-      return all;
-    }
-
-    var spellsByClass = async function(args) {
-      const argClass = args.class;
-      const all = await queries.getWhere("spells", "classes", argClass);
-      return all;
-    }
-
-    var spellsByClassAndLevel = async function(args) {
-      const all = await queries.getWhereClassAndLevel("spells", args.class, args.level);
       return all;
     }
 
     return {
       spell,
-      spells,
-      spellsByClass,
-      spellsByClassAndLevel
+      spells
     }
     
   } catch (error) {

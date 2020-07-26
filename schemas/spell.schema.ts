@@ -5,9 +5,7 @@ import { buildSchema } from "graphql";
 const spellSchemas = buildSchema(`
   type Query {
     spell(slug: String!): Spell
-    spells(slug: String): [Spell]
-    spellsByClass(class: String!): [Spell]
-    spellsByClassAndLevel(class: String!, level: Int!): [Spell]
+    spells(class: String, level: Int): [Spell]
   }
 
   type Spell {
