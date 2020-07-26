@@ -70,7 +70,7 @@ Return a specific spell by name
 Return spells that a given class can use
 ```
 {
-  spellsByClass(class:"Paladin"){
+  spells(class:"Paladin"){
     name,
     desc,
     range,
@@ -87,7 +87,7 @@ Return spells that a given class can use
 Return spells that a given class and level can use
 ```
 {
-  spellsByClassAndLevel(class:"Paladin", level:3){
+  spells(class:"Paladin", level:3){
     name,
     desc,
     range,
