@@ -1,8 +1,6 @@
 "use strict";
 
-import { buildSchema } from "graphql";
-
-const spellSchemas = buildSchema(`
+const spellSchemas = `
   type Query {
     spell(slug: String!): Spell
     spells(class: String, level: Int): [Spell]
@@ -28,6 +26,6 @@ const spellSchemas = buildSchema(`
     archetype: String,
     circles: String
   }
-`);
+`;
 
 export default spellSchemas;
