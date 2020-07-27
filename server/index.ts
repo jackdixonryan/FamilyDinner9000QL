@@ -6,8 +6,10 @@ import { buildSchema } from "graphql";
 import * as cors from "cors";
 import * as morgan from "morgan";
 import * as helmet from "helmet";
+import * as bodyParser from "body-parser";
 import loadSchemas from "../schemas/schema";
 import buildMethods from "../methods/spells.methods"
+import authModule from "../middleware/auth";
 
 async function serve(db) {
   try {
@@ -19,10 +21,17 @@ async function serve(db) {
 
     console.log("Building D&D Methods...");
     const methods = await buildMethods(db);
-
     const schema = await loadSchemas();
 
-    console.log("Initializing server...")
+    console.log("Initializing server...");
+
+    // if using a public deployment, restrict access by using a JWT system. (Not needed in sandbox)
+    if (process.env.ENVIRONMENT === "development" || process.env.ENVIRONMENT === "production") {
+      app.use(bodyParser.json());
+      app.post("/authenticate", authModule.createToken);
+      app.use(authModule.authenticateJWT);
+    }
+
     app.use("/graphql", graphqlHTTP({
       schema: schema,
       rootValue: methods,
