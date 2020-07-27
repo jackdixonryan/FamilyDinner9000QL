@@ -15,9 +15,10 @@ def export_the_good_bits(filename):
         loaded = json.loads(user_data["exportData"])
 
     flat_list = []
-    for sublist in loaded["spells"]:
-        for item in sublist:
-            flat_list.append(item)
+    for i in range(len(loaded["spells"])):
+        for spell in loaded["spells"][i]:
+            spell["level"] = i
+            flat_list.append(spell)
     loaded["spells"] = flat_list
     
     if not os.path.exists(CHARACTER_DESTINATION_DIR):
