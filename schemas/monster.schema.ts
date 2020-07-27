@@ -2,10 +2,6 @@
 
 const monsterSchema = `
 
-  type Mutation {
-    addMonsters(monsters: [Monster]): Int
-  }
-
   type Monster {
     id: String,
     slug: String,
