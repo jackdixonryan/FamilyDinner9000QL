@@ -6,7 +6,7 @@ import { buildSchema } from "graphql";
 import * as cors from "cors";
 import * as morgan from "morgan";
 import * as helmet from "helmet";
-import spellSchemas from "../schemas/spell.schema";
+import loadSchemas from "../schemas/schema";
 import buildMethods from "../methods/spells.methods"
 
 async function serve(db) {
@@ -20,9 +20,11 @@ async function serve(db) {
     console.log("Building D&D Methods...");
     const methods = await buildMethods(db);
 
+    const schema = await loadSchemas();
+
     console.log("Initializing server...")
     app.use("/graphql", graphqlHTTP({
-      schema: spellSchemas,
+      schema: schema,
       rootValue: methods,
       graphiql: true,
     }));
