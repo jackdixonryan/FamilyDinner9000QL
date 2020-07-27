@@ -13,6 +13,13 @@ def export_the_good_bits(filename):
     with open(CHARACTER_INPUT_DIR + filename, 'r') as input_file:
         user_data = json.load(input_file)
         loaded = json.loads(user_data["exportData"])
+
+    flat_list = []
+    for i in range(len(loaded["spells"])):
+        for spell in loaded["spells"][i]:
+            spell["level"] = i
+            flat_list.append(spell)
+    loaded["spells"] = flat_list
     
     if not os.path.exists(CHARACTER_DESTINATION_DIR):
         os.makedirs(CHARACTER_DESTINATION_DIR)
