@@ -18,6 +18,8 @@ def export_the_good_bits(filename):
     for i in range(len(loaded["spells"])):
         for spell in loaded["spells"][i]:
             spell["level"] = i
+            spell["prepared"] = "N"
+            spell["caster"] = loaded["name"]
             flat_list.append(spell)
     loaded["spells"] = flat_list
     
