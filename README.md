@@ -6,8 +6,9 @@ Currently, we only have spells.
 # How to run
 * npm install --save
 * create a file .env.dev containing
+   (Get the mongo URL from jack/carolyn)
 ```
-MONGO_URL=mongodb+srv://jackryan:2MGOLfcz49k5RUBn@cluster0.x1uxc.gcp.mongodb.net/5erpc?retryWrites=true&w=majority
+MONGO_URL=<url>
 PORT=9000
 ```
 * npm run dev
@@ -99,4 +100,16 @@ Return spells that a given class and level can use
     archetype
   }
 }
+```
+
+# Character Sheet Export
+From DnD Beyond:
+1. go to the character page you want
+1. use dev inspection
+1. click export as pdf
+1. catch the request payload being sent to pdf
+1. paste the entire payload in a file named <character_name>.json
+1. run the following to get the json exportedData as a json file in pretty format
+```
+python3 character_sheet_reader/characters_json_format.py 
 ```
