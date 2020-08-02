@@ -3,6 +3,8 @@
  
 import * as jwt from "jsonwebtoken";
 import * as bcrypt from "bcrypt";
+import { DH_NOT_SUITABLE_GENERATOR } from "constants";
+import { debug } from "console";
 
 const authModule = (function createAuthModule() {
   try {
@@ -58,23 +60,32 @@ const authModule = (function createAuthModule() {
             // make a db call to get the user at client id. 
             const call = await db.getWhere("users", "clientID", clientID);
             const user = call[0];
-            // grab their hashed pass
-            const { hash } = user;
-            // returns T / F
-            const isAuthed = await isCorrect(clientSecret, hash);
-            if (isAuthed === true) {
-              // sign and generate the token with our secret;
-              const accessToken = jwt.sign({
-                username: clientID,
-                role: "admin",
-              }, process.env.SECRET);
-              res.json({ accessToken });
-              console.log("You're in")
+            if (user) {
+              // grab their hashed pass
+              const { hash } = user;
+              // returns T / F
+              const isAuthed = await isCorrect(clientSecret, hash);
+              if (isAuthed === true) {
+                // sign and generate the token with our secret;
+                const accessToken = jwt.sign({
+                  username: clientID,
+                  role: "admin",
+                }, process.env.SECRET);
+                res.json({ accessToken });
+                console.log("You're in")
+             
+              } else {
+                res.status(401)
+                  .send({
+                    message: "You endeavored to make a deception roll, and you rolled a 10. That ain't gonna cut it."
+                  })
+              }
             } else {
+              // user unregistered 
               res.status(401)
                 .send({
-                  message: "You endeavored to make a deception roll, and you rolled a 10. That ain't gonna cut it."
-                })
+                  message: "You have not got an account, silly!"
+                });
             }
           }
         } catch(error) {
@@ -84,6 +95,7 @@ const authModule = (function createAuthModule() {
       },
       register: async function(req, res, next, db) {
         try {
+          console.log(req.body);
           const { body } = req;
           const { clientID, clientSecret } = body; 
           const newUser = {

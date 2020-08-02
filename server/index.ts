@@ -24,10 +24,11 @@ async function serve(db) {
     const schema = await loadSchemas();
 
     console.log("Initializing server...");
+    app.use(bodyParser.json());
+
 
     // if using a public deployment, restrict access by using a JWT system. (Not needed in sandbox)
     if (process.env.ENVIRONMENT === "development" || process.env.ENVIRONMENT === "production") {
-      app.use(bodyParser.json());
 
       app.post("/authenticate", async function(req, res, next) {
         authModule.createToken(req, res, next, db);
