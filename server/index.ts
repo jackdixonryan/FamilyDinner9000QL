@@ -24,12 +24,24 @@ async function serve(db) {
     const schema = await loadSchemas();
 
     console.log("Initializing server...");
+    app.use(bodyParser.json());
+
 
     // if using a public deployment, restrict access by using a JWT system. (Not needed in sandbox)
     if (process.env.ENVIRONMENT === "development" || process.env.ENVIRONMENT === "production") {
-      app.use(bodyParser.json());
-      app.post("/authenticate", authModule.createToken);
+
+      app.post("/authenticate", async function(req, res, next) {
+        authModule.createToken(req, res, next, db);
+      });
+
       app.use(authModule.authenticateJWT);
+    // permits registration of new FD9000 users from a local environment ( this will allow us to do access control )
+
+    // but, we don't necessarily want anyone creating accounts from a deploy just nowl
+    } else if (process.env.ENVIRONMENT === "local") {
+      app.post("/register", async function (req, res, next) {
+        authModule.register(req, res, next, db);
+      });
     }
 
     app.use("/graphql", graphqlHTTP({
