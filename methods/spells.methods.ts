@@ -6,9 +6,15 @@ import spellSchemas from "../schemas/spell.schema";
 async function buildMethods(queries) {
   try {
     var spell = async function(args) {
-      const slug = args.slug;
-      const spells = await queries.getWhere("spells", "slug", slug);
-      return spells[0];
+      if (args.slug != null){
+        const spells = await queries.getWhere("spells", "slug", args.slug);
+        return spells[0];
+      }
+      else if (args.name != null) {
+        const spells = await queries.getWhere("spells", "name", args.name);
+        return spells[0];
+      }
+      console.log("No paraeter given. Doing nothing.")
     }
 
     var spells = async function(args) {
