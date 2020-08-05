@@ -24,6 +24,7 @@ async function buildQueries(database) {
         const request = await database
           .collection(collection)
           .find(query)
+          .sort({ class: 1, level : 1 })
           .toArray();
 
         return request;
