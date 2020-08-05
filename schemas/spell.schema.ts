@@ -3,7 +3,7 @@
 const spellSchemas = `
   type Query {
     spell(slug: String, name: String): Spell
-    spells(class: String, level: Int): [Spell]
+    spells(class: String, level: Int, school: String): [Spell]
   }
 
   type Spell {

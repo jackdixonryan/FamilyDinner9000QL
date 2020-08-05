@@ -18,14 +18,19 @@ async function buildMethods(queries) {
     }
 
     var spells = async function(args) {
-      if (args.level != null && args.class != null) {
-        return await queries.getWhereClassAndLevel("spells", args.class, args.level);
+      const query = {};
+
+      if (args.school !=null) {
+        query["school"] = args.school;
+      }
+      if (args.level != null) {
+        query["level"] = { $lte: args.level };
       }
       else if (args.class != null) {
-        return await queries.getWhere("spells", "classes", args.class);
+        query["classes"] = args.class;
       }
-      const all = await queries.getMany("spells");
-      return all;
+      
+      return await queries.getQuery("spells", query);
     }
 
     return {
